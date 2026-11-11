@@ -50,6 +50,7 @@ def draw_electroforest_gel(id1, frag_dict1, id2, frag_dict2, enzymes):
     ax.grid(axis='y', color='#333333', linestyle='--', alpha=0.5)
     
     plt.tight_layout()
+    plt.savefig("rflp_gel_comparison.png", dpi=300)
     plt.show()
 
 if __name__ == "__main__":
